@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Travel App</string>
+    <string name="titleText">Click to Connect</string>
+    <string name="btnView">EXPLORE!!!!</string>
+    <string name="txtTitle">Travel and Explore!!!!</string>
+    <string name="txtHint">Number of people visiting</string>
+
+    <string-array name="txtGroup">
+
+        <item>Arizona</item>
+        <item>California</item>
+        <item>Washington D.C.</item>
+        <item>Florida</item>
+        <item>Hawaii</item>
+        <item>Kentucky</item>
+        <item>Mississippi</item>
+        <item>Nevada</item>
+        <item>New York</item>
+        <item>Oregon</item>
+        <item>Texas</item>
+        <item>Washington</item>
+    </string-array>
+
+    <string-array name="txtExplore">
+        <item>Top 50 Places to explore in USA</item>
+
+    </string-array>
+    <string name="txtExplore">Click here to Explore more and finalize!</string>
+    <string name="prompt">Select Group</string>
+    <string name="btnCost">Get an Estimate!!!!</string>
+    <string name="txtExplore1">Click here to explore more places and finalize bookings!!!</string>
+    <string name="travel">Travel</string>
+    <string name="txtTravel">Click below to explore more places and finalise bookings!!!</string>
+
+
+</resources>

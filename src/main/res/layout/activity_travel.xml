@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".travel">
+
+    <TextView
+        android:id="@+id/txtTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingBottom="@dimen/margin"
+        android:paddingTop="@dimen/margin"
+        android:text="@string/txtTitle"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/titleSize" />
+
+    <EditText
+        android:id="@+id/txtTickets"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/txtHint"
+        android:inputType="number"
+        android:paddingBottom="@dimen/margin"
+        android:paddingTop="@dimen/margin"
+        android:textSize="@dimen/hintSize" />
+
+    <Spinner
+        android:id="@+id/txtGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/txtGroup" />
+
+    <Button
+        android:id="@+id/btnCost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnCost" />
+
+    <TextView
+        android:id="@+id/txtResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/titleSize" />
+
+    <Button
+        android:id="@+id/btnExplore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txtExplore1" />
+
+</LinearLayout>
