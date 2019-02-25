@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Split">
+
+    <TextView
+        android:id="@+id/splitTxtView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingBottom="@dimen/margin5p"
+        android:paddingTop="@dimen/margin5p"
+        android:text="@string/txtTitle"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/titleSize" />
+
+    <EditText
+        android:id="@+id/txtBill"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/txtBill"
+        android:inputType="number"
+        android:paddingBottom="@dimen/margin5p"
+        android:paddingTop="@dimen/margin5p"
+        android:textSize="@dimen/hintSize" />
+
+    <Spinner
+        android:id="@+id/txtGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/txtGroup"
+        android:paddingBottom="@dimen/margin5p"
+        android:paddingLeft="@dimen/margin5p"
+        android:paddingRight="@dimen/margin5p"
+        android:paddingTop="@dimen/margin5p"
+        android:prompt="@string/prompt" />
+
+    <EditText
+        android:id="@+id/txtNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/txtPersons"
+        android:inputType="number"
+        android:paddingBottom="@dimen/margin5p"
+        android:paddingTop="@dimen/margin5p"
+        android:textSize="@dimen/hintSize" />
+
+    <Button
+        android:id="@+id/btncost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/margin5p"
+        android:paddingTop="@dimen/margin5p"
+        android:text="@string/btnDes"
+        android:textSize="@dimen/btnSize" />
+
+    <TextView
+        android:id="@+id/txtResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/margin5p"
+        android:paddingTop="@dimen/margin5p"
+        android:textSize="24sp" />
+
+</LinearLayout>

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Split App</string>
+    <string name="txtTitle">Split Wise</string>
+    <string name="txtPersons">Number of Persons</string>
+    <string name="prompt">Select tip</string>
+    <string name="description">SplitWise Image</string>
+    <string name="btnCost">Per head Cost</string>
+    <string name="txtBill">Total Bill Amount</string>
+
+    <string-array name="txtGroup">
+        <item> Excellant Service</item>
+        <item> Average Service</item>
+        <item> Poor Service</item>
+
+    </string-array>
+    <string name="btnDes">Split Amount</string>
+</resources>
